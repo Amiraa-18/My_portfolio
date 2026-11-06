@@ -1,0 +1,299 @@
+
+/* =========================
+   GLOBAL STYLE
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #20202a;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    width: 100%;
+}
+
+
+/* =========================
+   NAVBAR
+========================= */
+
+.navbar {
+    background-color: #ffffff !important;
+    padding: 18px 0;
+    border-bottom: 1px solid #f1e5eb;
+}
+
+.navbar-brand {
+    color: #e84b83 !important;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar-nav {
+    gap: 15px;
+}
+
+.nav-link {
+    color: #292929 !important;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #e84b83 !important;
+}
+
+
+/* =========================
+   HOME PAGE
+========================= */
+
+.home {
+    background-color: #fff8fb;
+    padding: 60px 0;
+}
+
+.welcome {
+    color: #e84b83;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.home h1 {
+    color: #20202a;
+    margin-top: 15px;
+}
+
+.home h1 span {
+    color: #e84b83;
+}
+
+.home h2 {
+    color: #333333;
+}
+
+.description {
+    line-height: 1.8;
+    max-width: 750px;
+}
+
+.home-buttons .btn-danger {
+    background-color: #e84b83;
+    border-color: #e84b83;
+}
+
+.home-buttons .btn-danger:hover {
+    background-color: #c9366d;
+    border-color: #c9366d;
+}
+
+.home-buttons .btn-outline-dark:hover {
+    background-color: #20202a;
+}
+
+.home .badge {
+    background-color: #29202a !important;
+    padding: 10px 15px !important;
+}
+
+
+/* =========================
+   ABOUT PAGE
+========================= */
+
+.about {
+    background-color: #ffffff;
+}
+
+.about h1 span {
+    color: #e84b83;
+}
+
+.about h2 {
+    color: #29202a;
+}
+
+.about h3 {
+    color: #e84b83;
+}
+
+.about .card {
+    border-radius: 15px;
+    background-color: #fff8fb;
+}
+
+.about .badge {
+    background-color: #29202a !important;
+    border-radius: 20px;
+    padding: 10px 15px !important;
+}
+
+
+/* =========================
+   PROJECTS PAGE
+========================= */
+
+.projects {
+    background-color: #fff8fb;
+}
+
+.projects h1 span {
+    color: #e84b83;
+}
+
+.projects .card {
+    border-radius: 18px;
+    background-color: #ffffff;
+    transition: 0.3s;
+}
+
+.projects .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(232, 75, 131, 0.12) !important;
+}
+
+.projects .card h2 {
+    color: #e84b83;
+}
+
+.projects .card p {
+    line-height: 1.7;
+}
+
+.projects .btn-outline-danger {
+    color: #e84b83;
+    border-color: #e84b83;
+}
+
+.projects .btn-outline-danger:hover {
+    background-color: #e84b83;
+    color: white;
+}
+
+
+/* =========================
+   CONTACT PAGE
+========================= */
+
+.contact {
+    background-color: #ffffff;
+}
+
+.contact h1 span {
+    color: #e84b83;
+}
+
+.contact .card {
+    border-radius: 18px;
+    background-color: #fff8fb;
+}
+
+.contact .card h3 {
+    color: #29202a;
+}
+
+.contact a {
+    color: #e84b83;
+}
+
+.contact a:hover {
+    color: #c9366d;
+}
+
+
+/* =========================
+   FORM PAGE
+========================= */
+
+.form-section {
+    background-color: #fff8fb;
+}
+
+.form-section h1 span {
+    color: #e84b83;
+}
+
+.form-section .card {
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+.form-section .form-control {
+    padding: 12px;
+    border: 1px solid #e5dce1;
+    border-radius: 10px;
+}
+
+.form-section .form-control:focus {
+    border-color: #e84b83;
+    box-shadow: 0 0 0 0.2rem rgba(232, 75, 131, 0.15);
+}
+
+.form-section .btn-danger {
+    background-color: #e84b83;
+    border-color: #e84b83;
+}
+
+.form-section .btn-danger:hover {
+    background-color: #c9366d;
+}
+
+
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+@media (max-width: 768px) {
+
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    .navbar-nav {
+        gap: 5px;
+    }
+
+    .home {
+        text-align: center;
+    }
+
+    .home h1 {
+        font-size: 42px;
+    }
+
+    .home h2 {
+        font-size: 23px;
+    }
+
+    .home-buttons {
+        justify-content: center;
+    }
+
+    .description {
+        font-size: 16px !important;
+    }
+
+    .projects .card {
+        margin-bottom: 10px;
+    }
+
+    .about,
+    .contact,
+    .projects,
+    .form-section {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
